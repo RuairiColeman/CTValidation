@@ -1,0 +1,15 @@
+program Validation;
+
+uses
+  Forms,
+  MainFrm in 'MainFrm.pas' {FrmMain},
+  DoorBuilderDm in 'DoorBuilderDm.pas' {DbDm: TDataModule};
+
+{$R *.RES}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFrmMain, FrmMain);
+  Application.CreateForm(TDbDm, DbDm);
+  Application.Run;
+end.
