@@ -49,13 +49,11 @@ uses RgGlassFrm, DoorBuilderDm;
 procedure TFrmMain.Button1Click(Sender: TObject);
 begin
   FrmRgGlassValidation.ShowModal;
-  DbDm.AdsTmpDoorBuilderInt.Close;
 end;
 
 procedure TFrmMain.BtnsopsClick(Sender: TObject);
 begin
   FrmRgGlassValidation.ShowModal;
-  DbDm.AdsTmpDoorBuilderInt.Close;
 end;
 
 end.
