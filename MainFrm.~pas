@@ -12,7 +12,7 @@ type
     CoolBar1: TCoolBar;
     Custtoolbar: TPanel;
     Btnsops: TSpeedButton;
-    dxStatusBar1: TdxStatusBar;
+    dxStatusBar1: TdxStatusBar; 
     Panel3: TPanel;
     Panel1: TPanel;
     Label1: TLabel;
