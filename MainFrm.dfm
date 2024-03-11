@@ -147,9 +147,9 @@ object FrmMain: TFrmMain
       object Label1: TLabel
         Left = 35
         Top = 142
-        Width = 47
+        Width = 77
         Height = 13
-        Caption = 'branch2'
+        Caption = 'CT Validation'
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWhite
         Font.Height = -11
